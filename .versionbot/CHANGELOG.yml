@@ -1,0 +1,91 @@
+- version: 1.1.1
+  date: 2020-11-13T16:21:10Z
+  commits:
+    - hash: e1813bbc057e37c9123c90b4c3578d2d27e25e31
+      author: Alexis Svinartchouk
+      footers:
+        change-type: patch
+      subject: Update resin-crc-utils -> @balena/node-crc-utils
+      body:
+- version: 1.1.0
+  date: 2020-09-15T12:01:53Z
+  commits:
+    - hash: 13d9aad06f55029580fedfa12e16dabf1e59044c
+      author: Alexis Svinartchouk
+      footers:
+        change-type: patch
+      subject: Remove lodash dependency
+      body:
+    - hash: e633142345024072d2f385ae86fb04d4e6ef7432
+      author: Alexis Svinartchouk
+      footers:
+        change-type: minor
+      subject: Export GZIP_HEADER and DEFLATE_END
+      body:
+- version: 1.0.1
+  date: 2020-09-14T18:56:35Z
+  commits:
+    - hash: a950c978c6de5a437755f2f2e75eade5f239f774
+      author: Alexis Svinartchouk
+      footers:
+        change-type: patch
+      subject: Fix calls to no longer existing lodash pluck
+      body:
+- version: 1.0.0
+  date: 2020-09-10T09:33:32Z
+  commits:
+    - hash: 0d24b703d43c32cc25d2e95fff0d74869d8045a1
+      author: Alexis Svinartchouk
+      footers:
+        change-type: major
+      subject: Update dependencies, update coffescript to 2.5.1
+      body:
+    - hash: 630b0ea24c5e6dbf9bc07fc5164a2bd9c8d7bb0b
+      author: Alexis Svinartchouk
+      footers:
+        change-type: patch
+      subject: Add project urls to package.json
+      body:
+    - hash: a6fa15ffe1f8035e3a0fbe4e4cb4b2211affa77e
+      author: Alexis Svinartchouk
+      footers:
+        change-type: patch
+      subject: Remove generated lib.js file
+      body:
+    - hash: 47312b3653c3b0fb47c84cd08641b5f7008cd4ee
+      author: Alexis Svinartchouk
+      footers:
+        change-type: patch
+      subject: Remove deprecated "new Buffer()" calls
+      body:
+- version: 0.0.8
+  date: 2019-10-03T16:03:34Z
+  commits:
+    - hash: a2f347fe332e3d137df9b851a698b7f9bafab752
+      author: Giovanni Garufi
+      footers:
+        change-type: patch
+        signed-off-by: Giovanni Garufi <giovanni@balena.io>
+      subject: Add title in readme
+      body:
+- version: 0.0.7
+  date: 2019-10-03T15:25:28Z
+  commits:
+    - hash: c53747458e2e187131d3e307cee3d2ca70d28c76
+      author: Alexis Svinartchouk
+      footers:
+        change-type: patch
+      subject: Fix DEFLATE_END stripping
+      body:
+    - hash: 588bf86f24591e27458794ede7bad51e458ed416
+      author: Alexis Svinartchouk
+      footers:
+        change-type: patch
+      subject: DEFLATE_END_LENGTH constant
+      body:
+    - hash: d32594cfff7af135c7b67387bac14630d711ccb4
+      author: Alexis Svinartchouk
+      footers:
+        change-type: patch
+      subject: Remove empty test script from package.json
+      body:
