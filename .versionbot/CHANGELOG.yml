@@ -1,7 +1,25 @@
 - commits:
+    - subject: Add support for Node 18
+      hash: 3a5a9d6209d72760554344f96507b3d2b06c953d
+      body: ""
+      footer:
+        Change-type: major
+        change-type: major
+      author: Akis Kesoglou
+    - subject: Build with Flowzone
+      hash: 245dbf419b69700b8cdce837e9acff9d6521c6f8
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Akis Kesoglou
+  version: 2.0.0
+  title: ""
+  date: 2023-01-20T16:12:40.902Z
+- commits:
     - subject: Add versionbot changelog
       hash: 56865feeecae35a12b0375e9c3f2fee9e061e3b0
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -48,7 +66,7 @@
       author: Alexis Svinartchouk
       footers:
         change-type: major
-      subject: 'Update dependencies, update coffescript to 2.5.1'
+      subject: Update dependencies, update coffescript to 2.5.1
       body: null
     - hash: 630b0ea24c5e6dbf9bc07fc5164a2bd9c8d7bb0b
       author: Alexis Svinartchouk
