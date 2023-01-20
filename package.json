@@ -4,11 +4,15 @@
   "description": "",
   "main": "lib.js",
   "scripts": {
-    "prepare": "./node_modules/.bin/coffee -c lib.coffee"
+    "prepare": "./node_modules/.bin/coffee -c lib.coffee",
+    "test": ""
   },
   "files": [
     "lib.js"
   ],
+  "engines": {
+    "node": ">=16"
+  },
   "homepage": "https://github.com/balena-io-modules/gzip-stream",
   "repository": {
     "type": "git",
@@ -17,10 +21,10 @@
   "bugs": {
     "url": "https://github.com/balena-io-modules/gzip-stream/issues"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Balena Ltd. <hello@balena.io>",
+  "license": "Apache-2.0",
   "dependencies": {
-    "@balena/node-crc-utils": "^2.0.0",
+    "@balena/node-crc-utils": "^3.0.0",
     "combined-stream": "^1.0.8",
     "crc32-stream": "^4.0.0"
   },
